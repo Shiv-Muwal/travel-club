@@ -1,0 +1,152 @@
+:root {
+    --fs-sm: 10px;
+    --fs-md: 14px;
+    --fs-lg: 16px;
+    --fs-xl: 20px;
+    --fs-2xl: 24px;
+    --fs-3xl: 28.33px;
+    --fs-4xl: 32px;
+    --fs-5xl:36px;
+    --fs-6xl: 48px;
+    --fs-7xl: 64px;
+
+
+
+
+    --bg-fade: #FFFFFF0A;
+    --bg-box:#8A8EF714;
+    --bg-black:#010101;
+    --border-white:#FDFDFD66;
+
+
+    --color-white: #FAFAFA;
+    --color-white2: #FFFFFF;
+    --color-white3:#FCFFFE;
+
+    --bg-blue:#696CDF;
+    --bg-purple:#5C368A;
+    --bg-pink:#E76E9A;
+    --bg-yellow:#D1B35E;
+    --bg-green:#98DBB3;
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_6xl {
+    font-size: var(--fs-6xl);
+}
+.fs_7xl{
+    font-size: var(--fs-7xl);
+}
+
+
+
+.fw_300{
+    font-weight: 300;
+}
+.fw_400{
+    font-weight: 400;
+}
+.fw_500{
+    font-weight: 500;
+}
+.fw_600{
+    font-weight: 600;
+}
+
+.fw_700{
+    font-weight: 700;
+}
+
+
+.bg_fade {
+    background-color: var(--bg-fade);
+}
+.bg_box{
+    background: var(--bg-box);
+}
+
+.color_white {
+    color: var(--color-white);
+}
+.color_white3{
+    color: var(--color-white3);
+}
+
+.color_white2 {
+    color: var(--color-white2);
+}
+.bg_blue{
+    background: var(--bg-blue);
+}
+.bg_purple{
+    background: var(--bg-purple);
+}
+.bg_pink{
+    background: var(--bg-pink);
+}
+.bg_yellow{
+    background: var(--bg-yellow);
+}
+.bg_green{
+    background: var(--bg-green);
+}
+.bg_black{
+    background: var(--bg-black);
+}
+
+
+.lh_15{
+    line-height: 15px;
+}
+.lh_24{
+    line-height: 24px;
+}
+.lh_25{
+    line-height: 25.6px;
+}
+.lh_28{
+    line-height: 28.2px;
+}
+.lh_30{
+    line-height: 30px;
+}
+.lh_37{
+    line-height: 37.6px;
+}
+.lh_42{
+    line-height: 42.3px;
+}
+.lh_56{
+    line-height: 56.4px;
+}
