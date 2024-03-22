@@ -271,7 +271,17 @@ margin-top: 30px;
     padding: 0 8% 0 0;
 } */
 
-
+.blue_line::after{
+    content: '';
+    position: absolute;
+    width: 102%;
+    height: 21px;
+    background: #1219D2;
+    border-radius: 21px;
+    left: 0;
+    bottom: 20px;
+    z-index: -1;
+}
 .bg_2{
     background-image: url(../images/bg_2.png);
     background-position: center;
@@ -387,6 +397,9 @@ margin-top: 30px;
     }
     .w_216{
         width: 215px;
+    }
+    .pl_28{
+        padding-left: 28px;
     }
 }
 @media (min-width:992px) {
