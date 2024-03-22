@@ -335,7 +335,8 @@
     position: absolute;
     width: 102%;
     height: 21px;
-    background: var(--bg-blue2);;
+    background: var(--bg-blue2);
+    ;
     border-radius: 21px;
     left: 0;
     bottom: 11px;
@@ -460,17 +461,100 @@
     right: 0;
 }
 
+.star6 {
+    right: 1%;
+    bottom: 0;
+}
+
+.EllipseR4 {
+    right: 0;
+    top: -50%;
+}
+
+.EllipseL4 {
+    bottom: -40%;
+    left: 0;
+}
+
+.star5 {
+    bottom: 35%;
+    left: 0;
+}
+
+.star4 {
+    right: 0;
+    top: 15%;
+}
+
+.EllipseL2 {
+    top: -60%;
+    left: 0;
+}
+
+.EllipseR3 {
+    right: 0;
+    top: -50%;
+}
+
+.EllipseR2 {
+    right: 0;
+    top: -30%;
+}
+
+.EllipseL2 {
+    top: -10%;
+    left: 0;
+}
+
+.star2 {
+    top: 0;
+    left: 0;
+}
+
+.star3 {
+    right: 0;
+    bottom: 0;
+}
+
+.EllipseL1 {
+    left: 0;
+    top: -90%;
+}
+
+.EllipseR1 {
+    bottom: -90%;
+    right: 0;
+}
+
+.star1 {
+    right: 0;
+    bottom: 0;
+}
+
+.scroll1::-webkit-scrollbar {
+    background: transparent;
+    height: 5px;
+}
+
+.scroll1::-webkit-scrollbar-thumb {
+    width: 40px;
+    height: 5px;
+    background: var(--bg-blue);
+}
+
 @media (min-width:576px) {
     .blue_line::after {
         content: '';
         position: absolute;
         width: 102%;
         height: 21px;
-        background:var(--bg-blue2);;
+        background: var(--bg-blue2);
+        ;
         border-radius: 21px;
         left: 0;
         bottom: 16px !important;
     }
+
     .box_1 {
         max-width: 930px;
         width: 100%;
@@ -478,9 +562,11 @@
         border: 1px solid var(--border-white);
         border-radius: 16px;
     }
+
     .pb_50 {
         padding-bottom: 50px;
     }
+
     .gap_30 {
         gap: 30px;
     }
@@ -508,27 +594,35 @@
     .pb_160 {
         padding-bottom: 160px;
     }
+
     .pb_184 {
         padding-bottom: 184px;
     }
+
     .pb_96 {
         padding-bottom: 96px;
     }
+
     .pb_110 {
         padding-bottom: 110px;
     }
+
     .pt_130 {
         padding-top: 130px;
     }
+
     .pt_86 {
         padding-top: 86.79px;
     }
+
     .pb_65 {
         padding-bottom: 65px;
     }
-    .slider1_card{
-    max-width: 367px;
+
+    .slider1_card {
+        max-width: 367px;
     }
+
     .slider2_card {
         background: var(--slider1-card);
         border-radius: 13px;
@@ -563,8 +657,8 @@
         align-items: center;
         justify-content: center;
         right: -100%;
-        z-index: 1050;
-        background: black;
+        z-index: 150;
+        background: var(--bg-blue);
         transition: all 600ms linear;
     }
 
