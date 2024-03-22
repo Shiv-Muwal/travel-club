@@ -3,31 +3,35 @@
     --fs-md: 14px;
     --fs-lg: 16px;
     --fs-xl: 20px;
-    --fs-2xl: 24px;
-    --fs-3xl: 28.33px;
+    --fs-2xl: 19px;
+    --fs-3xl: 25.33px;
     --fs-4xl: 32px;
-    --fs-5xl:36px;
-    --fs-6xl: 48px;
-    --fs-7xl: 64px;
-
-
-
-
+    --fs-5xl: 36px;
+    --fs-6xl: 36px;
+    --fs-7xl: 43px;
+    --box2-bg: #1219D220;
+    --slider1-card: #1219D233;
+    --color-f99: #FFFFFF99;
+    --color-f14: #FFFFFF14;
     --bg-fade: #FFFFFF0A;
-    --bg-box:#8A8EF714;
-    --bg-black:#010101;
-    --border-white:#FDFDFD66;
-
-
+    --bg-box: #8A8EF714;
+    --bg-black: #010101;
+    --border-white: #FDFDFD66;
+    --bg-color: #140D1B;
+    --offer-bg: #01010140;
     --color-white: #FAFAFA;
     --color-white2: #FFFFFF;
-    --color-white3:#FCFFFE;
+    --color-white3: #FCFFFE;
+    --bg-blue: #696CDF;
+    --bg-blue2: #1219D2;
+    --bg-purple: #5C368A;
+    --bg-pink: #E76E9A;
+    --bg-yellow: #D1B35E;
+    --bg-green: #98DBB3;
+}
 
-    --bg-blue:#696CDF;
-    --bg-purple:#5C368A;
-    --bg-pink:#E76E9A;
-    --bg-yellow:#D1B35E;
-    --bg-green:#98DBB3;
+.offer_bg {
+    background: var(--offer-bg);
 }
 
 .fs_sm {
@@ -65,88 +69,128 @@
 .fs_6xl {
     font-size: var(--fs-6xl);
 }
-.fs_7xl{
+
+.fs_7xl {
     font-size: var(--fs-7xl);
 }
 
-
-
-.fw_300{
+.fw_300 {
     font-weight: 300;
 }
-.fw_400{
+
+.fw_400 {
     font-weight: 400;
 }
-.fw_500{
+
+.fw_500 {
     font-weight: 500;
 }
-.fw_600{
+
+.fw_600 {
     font-weight: 600;
 }
 
-.fw_700{
+.fw_700 {
     font-weight: 700;
 }
-
 
 .bg_fade {
     background-color: var(--bg-fade);
 }
-.bg_box{
+
+.bg_box {
     background: var(--bg-box);
 }
 
 .color_white {
     color: var(--color-white);
 }
-.color_white3{
+
+.color_white3 {
     color: var(--color-white3);
 }
 
 .color_white2 {
     color: var(--color-white2);
 }
-.bg_blue{
+
+.bg_blue {
     background: var(--bg-blue);
 }
-.bg_purple{
+
+.bg_purple {
     background: var(--bg-purple);
 }
-.bg_pink{
+
+.bg_pink {
     background: var(--bg-pink);
 }
-.bg_yellow{
+
+.bg_yellow {
     background: var(--bg-yellow);
 }
-.bg_green{
+
+.bg_green {
     background: var(--bg-green);
 }
-.bg_black{
+
+.bg_black {
     background: var(--bg-black);
 }
 
+.bg_color {
+    background: var(--bg-color);
+}
 
-.lh_15{
+.lh_15 {
     line-height: 15px;
 }
-.lh_24{
+
+.lh_24 {
     line-height: 24px;
 }
-.lh_25{
+
+.lh_25 {
     line-height: 25.6px;
 }
-.lh_28{
+
+.lh_28 {
     line-height: 28.2px;
 }
-.lh_30{
+
+.lh_30 {
     line-height: 30px;
 }
-.lh_37{
+
+.lh_37 {
     line-height: 37.6px;
 }
-.lh_42{
+
+.lh_42 {
     line-height: 42.3px;
 }
-.lh_56{
+
+.lh_56 {
     line-height: 56.4px;
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-sm: 10px;
+        --fs-md: 14px;
+        --fs-lg: 16px;
+        --fs-xl: 20px;
+        --fs-2xl: 19px;
+        --fs-3xl: 28.33px;
+        --fs-4xl: 32px;
+        --fs-5xl: 36px;
+        --fs-6xl: 48px;
+        --fs-7xl: 64px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-2xl: 24;
+    }
 }
