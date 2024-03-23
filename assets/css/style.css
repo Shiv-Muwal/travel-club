@@ -46,7 +46,13 @@
     padding: 14px 32px;
     background: linear-gradient(90deg, #1219D2 0%, #4E52B1 100%);
     border-radius: 60px;
-    border: 1px solid transparent;
+    border: 1px solid var(--bg-blue2);
+    transition: all 500ms linear;
+}
+
+.btn_1:hover {
+    background: var(--color-white);
+    color: var(--bg-blue2);
 }
 
 .op_50 {
@@ -252,9 +258,15 @@
 .search_btn {
     padding: 14px 32px;
     background: linear-gradient(90deg, #1219D2 0%, #4E52B1 100%);
-    border: transparent;
+    border: 1px solid var(--bg-blue2);
     border-radius: 60px;
     margin-top: 30px;
+    transition: all 500ms linear;
+}
+
+.search_btn:hover {
+    background: var(--color-white);
+    color: var(--bg-blue2);
 }
 
 .slider1_card {
